@@ -2,9 +2,9 @@
   "utils": {
     "maxFrags": "1.0.1",
     "commands": "1.0.5",
-    "refills": "1.1.3",
+    "refills": "1.1.4",
     "huds": "1.0.10",
-    "enchantItems": "1.0.4",
+    "enchantItems": "1.0.5",
     "sellItems": "1.0.2",
     "antiDrunk": "1.0.1",
     "nameById": "1.0.1",
