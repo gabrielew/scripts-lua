@@ -1,0 +1,22 @@
+{
+    "utils": {
+        "maxFrags": "1.0.1",
+        "commands": "1.0.5",
+        "refills": "1.1.2",
+        "huds": "1.0.10",
+        "enchantItems": "1.0.4",
+        "sellItems": "1.0.2",
+        "antiDrunk": "1.0.1",
+        "nameById": "1.0.1",
+        "adventurerStone": "1.0.8",
+        "tiles": "1.0.0"
+    },
+    "engine": {
+        "constants": "1.1.1",
+        "actions": "1.2.4",
+        "astar": "1.02"
+    },
+    "dlls": {
+        "nexus_windows": "1.0.0"
+    }
+}
