@@ -1,39 +1,46 @@
 local NEXUS_CONFIG = {
     -- EN-US: Ignore monsters, ps.: respect the format: { "monster name", "monster name" }
     -- PT-BR: Monstros a serem ignorados, obs.: respeite o formato: { "nome do monstro", "nome do monstro" }
-    ignore_monster_list = { "hive pore", "bloodjaw", "fungosaurus", "Shrieking Cry-Stal" }
+    ignore_monster_list = { "hive pore", "bloodjaw", "fungosaurus", "Shrieking Cry-Stal" },
 
     -- EN-US: Stop if monster on screen, ps.: respect the format: { "monster name", "monster name" }
     -- PT-BR: Parar se monstro na tela, obs.: respeite o formato: { "nome do monstro", "nome do monstro" }
-    stop_if_monster_on_screen = { "plunder patriarch" }
+    stop_if_monster_on_screen = { "plunder patriarch" },
+
+    -- EN-US: Drop item list. p.s: Only drop if the item is visible in the backpack
+    -- PT-BR: Lista de itens para dropar. obs.: Apenas dropa se estiver visível na backpack
+    drop_item_list = { 3357, 3557, 3372, 3359 },
 
     -- EN-US: Stop walk if ping higher than this value
     -- PT-BR: Parar de andar se o ping for maior que esse valor
-    stop_moving_if_ping_higher_than = 2000
+    stop_moving_if_ping_higher_than = 2000,
 
     -- EN-US: Start or stop the walking feature
     -- PT-BR: Inicia ou para a funcionalidade de andar
-    start_stop_key = "F12"
+    start_stop_key = "F12",
 
     -- EN-US: Hotkey to hide/show all HUDs
     -- PT-BR: Hotkey para esconder/mostrar todas as HUDs
-    streamer_mode = "F11"
+    streamer_mode = "F11",
 
     -- EN-US: Set script messages language (EN_US/PT_BR)
     -- PT-BR: Defina o idioma das mensagens do script (EN_US/PT_BR)
-    language = "PT_BR"
+    language = "PT_BR",
 
     -- AFK scripts --
 
+    -- EN-US: Deposit item list. p.s: Only deposit if the item is visible in the backpack and the afk script has this functionality
+    -- PT-BR: Lista de itens para depositar. obs.: Apenas deposita se estiver visível na backpack e o script afk tiver essa funcionalidade
+    deposit_item_list = { 20200, 20062 },
+
     -- EN-US: If true,  will buy in shopping bags
     -- PT-BR: Se verdadeiro, irá comprar em shopping bags
-    buy_in_shopping_bags = true
+    buy_in_shopping_bags = true,
 
     -- only in rubinot
-    -- En-us: Use forge system, 1 to transform dust in slivers, 2 to increase dust limit, 0 to ignore. p.s: Remember to configure positions in the end of this file --
-    -- Pt-br: Usar o sistema de forja, 1 para transformar dust em slivers, 2 para aumentar o limite de dust, 0 para ignorar. obs.: Lembre-se de configurar as posicoes no final deste arquivo --
-    use_forge_system = 2
-
+    -- En-us: Use forge system, 1 to transform dust in slivers, 2 to increase dust limit, 0 to ignore
+    -- Pt-br: Usar o sistema de forja, 1 para transformar dust em slivers, 2 para aumentar o limite de dust, 0 para ignorar
+    use_forge_option = 2,
 
     -- AFK scripts --
 }
@@ -90,3 +97,5 @@ NEXUS_CONFIG.items_to_not_sell = {
     10324, 10325, 10326, 10327, 10346, 11698, 12237, 12548, 13429, 14248, 14249, 14674, 16099, 16100, 19159, 20347, 21203, 21292, 21295,
     21411, 21880, 21881, 22763, 23525, 23682, 24393, 24395, 24949, 25780, 28571, 30197, 30316, 32620, 34109, 35479, 35577, 37536, 39546,
     39577, 39754, 48114, 48475, 10817, 10818, 43860, 43895, 43896, 43897, 43898, 20200, 23526, 23542, 23543, 23544, 23529, 23530, 23531, 23532, 23533, 23534 }
+
+return NEXUS_CONFIG
