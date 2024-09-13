@@ -1,0 +1,167 @@
+{
+    "monsters_to_stop": 10,
+    "monsters_to_back": 5,
+    "monsters_box_life_percentage": 25,
+    "monsters_to_run": 25,
+    "player_vision_area": 6,
+    "max_walk_delay": 1000,
+    "walk_delay": 70,
+    "anti_ks": false,
+    "player_mana_to_stop_walk": 0,
+    "player_mana_to_start_walk": 0,
+    "max_frags": 0,
+    "each_frag_time": 15,
+    "pause_script_if_reached_max_frags": false,
+    "pause_script_if_player_on_screen": false,
+    "lure_monsters": true,
+    "minimum_monsters_to_wait_lure": 2,
+    "near_monsters_to_run": 4,
+    "try_run_to_pz_if_pk_attack": false,
+    "wait_in_pz_after_pause_from_pk_attack": 0,
+    "loot_pouch_id": 23721,
+    "cap_to_leave": 500,
+    "refills": [
+        {
+            "id": 236,
+            "category": "potions",
+            "name": "Strong Health Potion",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 237,
+            "category": "potions",
+            "name": "Strong Mana Potion",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 239,
+            "category": "potions",
+            "name": "Great Health Potion",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 238,
+            "category": "potions",
+            "name": "Great Mana Potion",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 23375,
+            "category": "potions",
+            "name": "Supreme health potion",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 23374,
+            "category": "potions",
+            "name": "Ultimate spirit potion",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 7643,
+            "category": "potions",
+            "name": "Ultimate health potion",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 7642,
+            "category": "potions",
+            "name": "Great spirit potion",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 23373,
+            "category": "potions",
+            "name": "Ultimate mana potion",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+
+        {
+            "id": 3161,
+            "category": "runes",
+            "name": "Avalanche rune",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 3202,
+            "category": "runes",
+            "name": "Thunderstorm rune",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 3175,
+            "category": "runes",
+            "name": "Stone shower rune",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 3191,
+            "category": "runes",
+            "name": "Great fireball rune",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 3155,
+            "category": "runes",
+            "name": "Sudden death rune",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 3160,
+            "category": "runes",
+            "name": "Ultimate healing rune",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+
+        {
+            "id": 35901,
+            "category": "distance",
+            "name": "Diamond arrow",
+            "leave_hunt": 0,
+            "buy": 0
+        },
+        {
+            "id": 35902,
+            "category": "distance",
+            "name": "Spectral Bolt",
+            "leave_hunt": 0,
+            "buy": 0
+        }
+    ],
+    "max_player_deaths": 0,
+    "wait_in_temple_after_death": 0,
+    "auto_say_bless": false,
+    "loot_corpses": false,
+    "loot_corpses_delay": 0,
+    "monsters_to_caitbox": 0,
+    "monsters_to_stop_in_forced_boxes": 0,
+    "monsters_to_leave_from_forced_boxes": 0,
+    "walk_mode": 0,
+    "hud_configs_pos_x": 100,
+    "hud_configs_pos_y": 100,
+    "hud_show_all_supplies_in_refill_menu": false,
+    "hud_refill_multiplier_count": 50,
+    "hud_frags_pos_x": 100,
+    "hud_frags_pos_y": 100,
+    "hud_status_pos_x": 100,
+    "hud_status_pos_y": 100,
+    "alert_private_message": false,
+    "is_boss_script": false,
+    "hunt_mode": 0,
+    "gnomprona_hunt": false
+}
