@@ -5,7 +5,7 @@ local HUNT_CONFIG = {
 
     -- En-us: Amount to walk after kill the box
     -- Pt-br: Quantidade par voltar a andar apos matar box
-    monster_to_back = 5,
+    monsters_to_back = 5,
 
     -- En-us: Monster medium life percentage to walk after started box
     -- Pt-br: Porcentagem media de vida do monstro para andar apos iniciar a box
@@ -13,7 +13,7 @@ local HUNT_CONFIG = {
 
     -- En-us: Run away with this amount of monsters
     -- Pt-br: Sai correndo com essa quantidade de bichos
-    monster_to_run = 25,
+    monsters_to_run = 25,
 
     -- En-us: Area that the player 'count' how many monsters are on the screen
     -- Pt-br: Area que o player 'conta' quantos monstros tem na tela
@@ -51,7 +51,7 @@ local HUNT_CONFIG = {
     -- Leave false to not or true to pause
     -- Pt-br: Pausar target, magic shooter e cavebot se atingir max_frags? obs.: max_frags deve ser maior que 0
     -- Deixe false para nao ou true para pausar
-    pause_script_if_reached_max_Frags = false,
+    pause_script_if_reached_max_frags = false,
 
     -- En-us: Pause script when has player on screen, leave false to not pause or true to pause
     -- Pt-br: Pausar script quando tiver player na tela, deixe false para nao pausar ou true para pausar
@@ -65,11 +65,11 @@ local HUNT_CONFIG = {
 
     -- En-us: Minimum monster count to start avoid lost
     -- Pt-br: Quantidade minima de monstros para comecar a evitar lost
-    minimum_monster_to_wait_lure = 2,
+    minimum_monsters_to_wait_lure = 2,
 
     -- En-us: Minimum number of blocked tiles/mobs around your character to force walk and avoid getting stuck/trapped. This considers tiles and mobs in a 2x2 area
     -- Pt-br: Numero minimo de tiles/mobs bloqueados ao redor do seu personagem para forcar andar e evitar ficar preso. Isso considera tiles e mobs em uma area 2x2
-    near_creatures_to_run = 4,
+    near_monsters_to_run = 4,
 
     -- [Lure Settings] --
 
@@ -150,12 +150,12 @@ local HUNT_CONFIG = {
 
     -- Pt-br: Deve pegar loot ao seu redor 1x1? --
     -- Deixe true para lootar, deixe 0 para nao lootar
-    lootCorpses = false,
+    loot_corpses = false,
 
     -- En-us: Delay to loot corpses
     -- Pt-br: Delay para pegar loot
     -- rubinOT = 0, ixodusOT = 250
-    lootCorpsesDelay = 0,
+    loot_corpses_delay = 0,
 
     -- [Loot Corpses System] --
 
@@ -228,6 +228,10 @@ local HUNT_CONFIG = {
     -- En-us: If 0, will hunt dinamically, if 1 will hunt luring
     -- Pt-br: Se 0, ira cacar dinamicamente, se 1 ira cacar lurando
     hunt_mode = 0,
+
+    --En-us: If true, will automatically walk in fungus and use fire bomb (if have) to stop fear status
+    --Pt-br: Se true, ira andar automaticamente em fungos e usar fire bomb (se tiver) para parar o status de fear
+    gnomprona_hunt = false
 
     -- [Others] --
 
