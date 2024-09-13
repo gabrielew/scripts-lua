@@ -197,9 +197,40 @@ local HUNT_CONFIG = {
     -- Pt-br: Mostrar valor do multiplicador no menu de refill
     hud_refill_multiplier_count = 50,
 
+    -- En-us: Position X from the frag huds
+    -- Pt-br: Posicao X das huds de frags
+    hud_frags_pos_x = 100,
+
+    -- En-us: Position Y from the frag huds
+    -- Pt-br: Posicao Y das huds de frags
+    hud_frags_pos_y = 100,
+
+    -- En-us: Position X from the status huds
+    -- Pt-br: Posicao X das huds de status
+    hud_status_pos_x = 100,
+
+    -- En-us: Position Y from the status huds
+    -- Pt-br: Posicao Y das huds de status
+    hud_status_pos_y = 100,
+
     -- [Hud Configs] --
 
     -- [Complete/Afk Scripts] --
+
+    -- [Others] --
+
+    -- En-us: Play alert sound if receive private message
+    -- Pt-br: Tocar som de alerta se receber mensagem privada
+    alert_private_message = false,
+
+    is_boss_script = false,
+
+    -- En-us: If 0, will hunt dinamically, if 1 will hunt luring
+    -- Pt-br: Se 0, ira cacar dinamicamente, se 1 ira cacar lurando
+    hunt_mode = 0,
+
+    -- [Others] --
+
 }
 
 return HUNT_CONFIG
