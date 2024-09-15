@@ -20,9 +20,9 @@
     "nexus_windows": "1.0.0"
   },
   "essentials": {
-    "lib": "1.0.1"
+    "lib": "1.0.2"
   },
   "script": {
-    "engine": "2.5.3"
+    "engine": "2.5.4"
   }
 }
