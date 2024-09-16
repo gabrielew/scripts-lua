@@ -163,6 +163,7 @@
   "alert_private_message": false,
   "is_boss_script": false,
   "hunt_mode": 0,
-  "gnomprona_hunt": false,
+  "is_gnomprona_hunt": false,
+  "use_bomb_rune_on_fear_status": false,
   "items_to_not_sell": [3048, 3081]
 }
