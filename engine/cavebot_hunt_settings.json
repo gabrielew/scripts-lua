@@ -165,5 +165,5 @@
   "hunt_mode": 0,
   "is_gnomprona_hunt": false,
   "use_bomb_rune_on_fear_status": false,
-  "items_to_not_sell": [3048, 3081]
+  "items_to_not_sell": [3048, 3081, 3097]
 }
