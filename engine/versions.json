@@ -2,10 +2,10 @@
   "utils": {
     "maxFrags": "1.0.1",
     "commands": "1.0.5",
-    "refills": "1.1.6",
+    "refills": "1.1.7",
     "huds": "1.0.10",
     "enchantItems": "1.0.5",
-    "sellItems": "2.0.0",
+    "sellItems": "2.0.1",
     "antiDrunk": "1.0.1",
     "nameById": "1.0.1",
     "adventurerStone": "1.0.8",
