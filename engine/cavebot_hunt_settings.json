@@ -152,18 +152,21 @@
   "monsters_to_stop_in_forced_boxes": 0,
   "monsters_to_leave_from_forced_boxes": 0,
   "walk_mode": 0,
-  "hud_configs_pos_x": 100,
+  "hud_configs_pos_x": 400,
   "hud_configs_pos_y": 100,
   "hud_show_all_supplies_in_refill_menu": false,
   "hud_refill_multiplier_count": 50,
   "hud_frags_pos_x": 100,
   "hud_frags_pos_y": 100,
-  "hud_status_pos_x": 100,
+  "hud_status_pos_x": 200,
   "hud_status_pos_y": 100,
   "alert_private_message": false,
   "is_boss_script": false,
   "hunt_mode": 0,
   "is_gnomprona_hunt": false,
   "use_bomb_rune_on_fear_status": false,
-  "items_to_not_sell": [3048, 3081, 3097]
+  "items_to_not_sell": [
+    3048, 3081, 3097, 23526, 23527, 23528, 23529, 23530, 23531, 23532, 23533,
+    23534, 3051, 20200, 23542, 23543, 23544
+  ]
 }
