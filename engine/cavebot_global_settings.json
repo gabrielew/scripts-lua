@@ -6,7 +6,7 @@
     "Shrieking Cry-Stal"
   ],
   "stop_if_monster_on_screen": ["plunder patriarch"],
-  "drop_item_list": [3357, 3557, 3372, 3359],
+  "drop_item_list": [3357, 3557, 3372, 3359, 20055],
   "stop_moving_if_ping_higher_than": 2000,
   "start_stop_key": "F12",
   "streamer_mode": "F11",
