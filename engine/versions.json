@@ -3,7 +3,7 @@
     "maxFrags": "1.0.1",
     "commands": "1.0.5",
     "refills": "1.1.7",
-    "huds": "1.0.10",
+    "huds": "1.0.11",
     "enchantItems": "1.0.5",
     "sellItems": "2.0.1",
     "antiDrunk": "1.0.1",
@@ -17,12 +17,12 @@
     "astar": "1.0.2"
   },
   "dlls": {
-    "nexus_windows": "1.0.0"
+    "nexus_windows": "1.0.1"
   },
   "essentials": {
     "lib": "1.0.2"
   },
   "script": {
-    "engine": "2.6.3"
+    "engine": "2.6.5"
   }
 }
