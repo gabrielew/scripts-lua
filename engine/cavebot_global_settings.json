@@ -3,7 +3,16 @@
     "hive pore",
     "bloodjaw",
     "fungosaurus",
-    "Shrieking Cry-Stal"
+    "Shrieking Cry-Stal",
+    "wild warrior",
+    "bandit",
+    "boar",
+    "smuggler",
+    "lion",
+    "snake",
+    "rabbit",
+    "wolf",
+    "scorpion"
   ],
   "stop_if_monster_on_screen": ["plunder patriarch"],
   "drop_item_list": [3357, 3557, 3372, 3359, 20055],
