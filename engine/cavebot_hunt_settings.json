@@ -151,6 +151,7 @@
   "monsters_to_caitbox": 0,
   "monsters_to_stop_in_forced_boxes": 0,
   "monsters_to_leave_from_forced_boxes": 0,
+  "player_vision_area_in_forced_boxes": 0,
   "walk_mode": 0,
   "hud_configs_pos_x": 500,
   "hud_configs_pos_y": 100,
