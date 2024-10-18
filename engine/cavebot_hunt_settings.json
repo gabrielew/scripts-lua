@@ -171,5 +171,13 @@
     23534, 3051, 20200, 23542, 23543, 23544, 7443, 7440
   ],
   "use_bones_on_roshamuul": false,
-  "chose_route": 0
+  "chose_route": 0,
+  "utito": {
+    "min_monsters": 2,
+    "max_monsters": 6,
+    "only_cast_if_fully_box_or_trapped": false,
+    "utito_is_enabled": false,
+    "min_health_percent": 50,
+    "min_mana_percent": 50
+  }
 }
