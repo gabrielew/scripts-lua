@@ -3,16 +3,16 @@
     "maxFrags": "1.0.1",
     "commands": "1.0.5",
     "refills": "1.1.7",
-    "huds": "1.0.17",
+    "huds": "1.0.18",
     "enchantItems": "1.0.5",
     "antiDrunk": "1.0.2",
     "nameById": "1.0.1",
-    "adventurerStone": "1.0.8",
+    "adventurerStone": "1.0.9",
     "tiles": "1.0.0"
   },
   "engine": {
     "constants": "1.1.9",
-    "actions": "1.2.15",
+    "actions": "1.2.16",
     "astar": "1.0.2"
   },
   "dlls": {
