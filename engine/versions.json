@@ -12,7 +12,7 @@
   },
   "engine": {
     "constants": "1.1.9",
-    "actions": "1.2.16",
+    "actions": "1.2.18",
     "astar": "1.0.2"
   },
   "dlls": {
@@ -22,6 +22,6 @@
     "lib": "1.0.2"
   },
   "script": {
-    "engine": "2.7.6"
+    "engine": "2.7.36"
   }
 }
