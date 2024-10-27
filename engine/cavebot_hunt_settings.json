@@ -1,4 +1,5 @@
 {
+  "hud_display_status": true,
   "monsters_to_stop": 10,
   "monsters_to_back": 5,
   "monsters_box_life_percentage": 25,
