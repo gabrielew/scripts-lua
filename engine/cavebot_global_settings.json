@@ -1,4 +1,18 @@
 {
+  "hud_display": {
+    "enable_all_status": true,
+    "only_show_icon": false,
+    "verbose_level": {
+      "status": true,
+      "player": true,
+      "mobs": true,
+      "config": true,
+      "coord": true,
+      "death": true,
+      "bank": true,
+      "walk_mode": true
+    }
+  },
   "ignore_monster_list": [
     "hive pore",
     "bloodjaw",
