@@ -4,6 +4,25 @@ COORDS = {
     { x = 32527, y = 32784, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32530, y = 32786, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32531, y = 32787, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    {
+        x = 32531,
+        y = 32787,
+        z = 6,
+        wait = 'SINGLE_STEP_DELAY',
+        type = 'CHECK_TASK_RUBINOT',
+        action = function()
+            if MACHINE_UTILS.commands:get('task_rubinot') then
+                return
+                'leave-task2'
+            else
+                return 'start2'
+            end
+        end,
+    },
+    { x = 32531, y = 32787, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'start2', },
+
+
     { x = 32531, y = 32788, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 32531, y = 32789, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'RUN_MODE_ON', },
     { x = 32535, y = 32792, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
@@ -407,6 +426,9 @@ COORDS = {
     { x = 32535, y = 32791, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32532, y = 32790, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32532, y = 32788, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    { x = 32532, y = 32788, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'leave-task2', },
+
     { x = 32532, y = 32787, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 32527, y = 32784, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 32527, y = 32784, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'TRAVEL',            npc = { "Charles" }, city = { "thais" }, },

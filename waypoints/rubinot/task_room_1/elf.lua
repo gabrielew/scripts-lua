@@ -3,6 +3,24 @@ COORDS = {
     { x = 32310, y = 32210, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'TRAVEL',              npc = { "Captain Bluebear" }, city = { "yalahar" }, },
     { x = 32816, y = 31272, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32815, y = 31272, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    {
+        x = 32815,
+        y = 31272,
+        z = 6,
+        wait = 'SINGLE_STEP_DELAY',
+        type = 'CHECK_TASK_RUBINOT',
+        action = function()
+            if MACHINE_UTILS.commands:get('task_rubinot') then
+                return
+                'leave-task2'
+            else
+                return 'start2'
+            end
+        end,
+    },
+    { x = 32815, y = 31272, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'start2', },
+
     { x = 32814, y = 31272, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 32813, y = 31272, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'RUN_MODE_ON', },
     { x = 32811, y = 31268, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
@@ -184,6 +202,53 @@ COORDS = {
     { x = 32751, y = 31290, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32751, y = 31289, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32751, y = 31288, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
+
+    {  x = 32752,  y = 31288,  z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE',  },
+    {  x = 32753,  y = 31287,  z = 7, wait = 'SINGLE_STEP_DELAY', type = 'ENTER_HOLE',  },
+    {  x = 32753,  y = 31288,  z = 8, wait = 'SINGLE_STEP_DELAY', type = 'STAND',  },
+
+    {
+        x = 32753,
+        y = 31288,
+        z = 8,
+        wait = 'SINGLE_STEP_DELAY',
+        type = 'CHANGE_THING',
+        action = function()
+            values.monsters_to_stop = (values.monsters_to_stop_in_forced_boxes or 2)
+            values.monsters_to_back = (values.monsters_to_leave_from_forced_boxes or 0)
+            values.player_vision_area = 7
+        end,
+    },
+
+    {  x = 32753,  y = 31289,  z = 8, wait = 'SINGLE_STEP_DELAY', type = 'NODE',  },
+    {  x = 32753,  y = 31289,  z = 8, wait = 'SINGLE_STEP_DELAY', type = 'CHANGE_THING_BACK',  },
+    {  x = 32753,  y = 31291,  z = 8, wait = 'SINGLE_STEP_DELAY', type = 'NODE',  },
+    {  x = 32753,  y = 31292,  z = 8, wait = 'SINGLE_STEP_DELAY', type = 'ENTER_HOLE',  },
+    {  x = 32753,  y = 31294,  z = 9, wait = 'SINGLE_STEP_DELAY', type = 'STAND',  },
+
+    {
+        x = 32753,
+        y = 31294,
+        z = 9,
+        wait = 'SINGLE_STEP_DELAY',
+        type = 'CHANGE_THING',
+        action = function()
+            values.monsters_to_stop = (values.monsters_to_stop_in_forced_boxes or 2)
+            values.monsters_to_back = (values.monsters_to_leave_from_forced_boxes or 0)
+            values.player_vision_area = 7
+        end,
+    },
+
+
+
+    {  x = 32754,  y = 31294,  z = 9, wait = 'SINGLE_STEP_DELAY', type = 'NODE',  },
+    {  x = 32754,  y = 31294,  z = 9, wait = 'SINGLE_STEP_DELAY', type = 'CHANGE_THING_BACK',  },
+    {  x = 32754,  y = 31293,  z = 9, wait = 'SINGLE_STEP_DELAY', type = 'NODE',  },
+    {  x = 32754,  y = 31292,  z = 9, wait = 'SINGLE_STEP_DELAY', type = 'UPSTAIRS_DOWNSTAIRS',  },
+    {  x = 32754,  y = 31288,  z = 8, wait = 'SINGLE_STEP_DELAY', type ='NODE',  },
+    {  x = 32753,  y = 31287,  z = 8, wait = 'SINGLE_STEP_DELAY', type = 'LADDER',  },
+    {  x = 32751,  y = 31287,  z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE',  },
+
     { x = 32751, y = 31287, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32751, y = 31286, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32751, y = 31285, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
@@ -563,6 +628,9 @@ COORDS = {
     { x = 32810, y = 31268, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32812, y = 31271, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32814, y = 31271, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    { x = 32814, y = 31271, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'leave-task2', },
+
     { x = 32815, y = 31271, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 32817, y = 31274, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32817, y = 31275, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'OPEN_DOOR',           direction = 2, },

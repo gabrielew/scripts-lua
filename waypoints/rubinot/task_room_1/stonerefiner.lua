@@ -5,6 +5,24 @@ COORDS = {
     { x = 32954, y = 32022, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32954, y = 32024, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32954, y = 32026, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    {
+        x = 32954,
+        y = 32026,
+        z = 6,
+        wait = 'SINGLE_STEP_DELAY',
+        type = 'CHECK_TASK_RUBINOT',
+        action = function()
+            if MACHINE_UTILS.commands:get('task_rubinot') then
+                return
+                'leave-task2'
+            else
+                return 'start2'
+            end
+        end,
+    },
+    { x = 32954, y = 32026, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'start2', },
+
     { x = 32954, y = 32027, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 32954, y = 32028, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'RUN_MODE_ON', },
     { x = 32954, y = 32032, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
@@ -590,6 +608,9 @@ COORDS = {
     { x = 32954, y = 32032, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32954, y = 32028, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32954, y = 32027, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    { x = 32954, y = 32027, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'leave-task2', },
+
     { x = 32954, y = 32026, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 32954, y = 32024, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32954, y = 32022, z = 6,  wait = 'SINGLE_STEP_DELAY', type = 'STAND', },

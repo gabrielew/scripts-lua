@@ -3,6 +3,24 @@ COORDS = {
     { x = 32310, y = 32210, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'TRAVEL',              npc = { "Captain Bluebear" }, city = { "yalahar" }, },
     { x = 32816, y = 31272, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32815, y = 31272, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    {
+        x = 32815,
+        y = 31272,
+        z = 6,
+        wait = 'SINGLE_STEP_DELAY',
+        type = 'CHECK_TASK_RUBINOT',
+        action = function()
+            if MACHINE_UTILS.commands:get('task_rubinot') then
+                return
+                'leave-task2'
+            else
+                return 'start2'
+            end
+        end,
+    },
+    { x = 32815, y = 31272, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'start2', },
+
     { x = 32814, y = 31272, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 32813, y = 31272, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'RUN_MODE_ON', },
     { x = 32812, y = 31268, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
@@ -294,6 +312,9 @@ COORDS = {
     },
     { x = 32862, y = 31151, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32862, y = 31151, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'CHANGE_THING_BACK', },
+
+    { x = 32862, y = 31151, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'RUN_MODE_ON', },
+
     { x = 32863, y = 31151, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32864, y = 31151, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32865, y = 31151, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
@@ -317,6 +338,9 @@ COORDS = {
     { x = 32874, y = 31153, z = 5, wait = 'SINGLE_STEP_DELAY', type = 'UPSTAIRS_DOWNSTAIRS', findTileId = 1947, },
     { x = 32874, y = 31152, z = 4, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32874, y = 31151, z = 4, wait = 'SINGLE_STEP_DELAY', type = 'UPSTAIRS_DOWNSTAIRS', findTileId = 1947, },
+
+    { x = 32873, y = 31150, z = 3, wait = 'SINGLE_STEP_DELAY', type = 'RUN_MODE_OFF', },
+
     { x = 32873, y = 31150, z = 3, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     {
         x = 32873,
@@ -521,6 +545,9 @@ COORDS = {
     },
     { x = 32871, y = 31149, z = 3, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32871, y = 31149, z = 3, wait = 'SINGLE_STEP_DELAY', type = 'CHANGE_THING_BACK', },
+
+    { x = 32871, y = 31149, z = 3, wait = 'SINGLE_STEP_DELAY', type = 'RUN_MODE_ON', },
+
     { x = 32872, y = 31149, z = 3, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32873, y = 31149, z = 3, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32874, y = 31150, z = 3, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
@@ -571,6 +598,9 @@ COORDS = {
     { x = 32857, y = 31137, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32856, y = 31137, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32855, y = 31137, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
+
+    { x = 32855, y = 31137, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'RUN_MODE_OFF', },
+
     { x = 32854, y = 31136, z = 7, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     {
         x = 32854,
@@ -871,6 +901,9 @@ COORDS = {
     { x = 32811, y = 31267, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32813, y = 31271, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32814, y = 31271, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    { x = 32814, y = 31271, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'leave-task2', },
+
     { x = 32815, y = 31271, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 32817, y = 31274, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 32817, y = 31275, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'OPEN_DOOR',           direction = 2, },

@@ -3,6 +3,25 @@ COORDS = {
     { x = 32310, y = 32210, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'TRAVEL',       npc = { "Captain Bluebear", "Captain Seahorse" }, city = { "edron", "cormaya" }, },
     { x = 33288, y = 31956, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 33289, y = 31956, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    {
+        x = 33289,
+        y = 31956,
+        z = 6,
+        wait = 'SINGLE_STEP_DELAY',
+        type = 'CHECK_TASK_RUBINOT',
+        action = function()
+            if MACHINE_UTILS.commands:get('task_rubinot') then
+                return
+                'leave-task2'
+            else
+                return 'start2'
+            end
+        end,
+    },
+    { x = 33289, y = 31956, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'start2', },
+
+
     { x = 33290, y = 31956, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 33293, y = 31959, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 33293, y = 31960, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'ENTER_HOLE',   findTileId = 432, },
@@ -759,6 +778,9 @@ COORDS = {
     { x = 33294, y = 31960, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 33293, y = 31957, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 33290, y = 31957, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    { x = 33290, y = 31957, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'leave-task2', },
+
     { x = 33289, y = 31957, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 33288, y = 31957, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 33288, y = 31957, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'TRAVEL',              npc = { "Pemaret", "Captain Seahorse" }, city = { "edron", "thais" }, },

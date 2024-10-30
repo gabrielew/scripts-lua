@@ -3,6 +3,25 @@ COORDS = {
     { x = 32310, y = 32210, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'TRAVEL',              npc = { "Captain Bluebear" }, city = { "edron" }, },
     { x = 33175, y = 31764, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 33175, y = 31767, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    {
+        x = 33175,
+        y = 31767,
+        z = 6,
+        wait = 'SINGLE_STEP_DELAY',
+        type = 'CHECK_TASK_RUBINOT',
+        action = function()
+            if MACHINE_UTILS.commands:get('task_rubinot') then
+                return
+                'leave-task2'
+            else
+                return 'start2'
+            end
+        end,
+    },
+    { x = 33175, y = 31767, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'start2', },
+
+
     { x = 33175, y = 31768, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 33175, y = 31769, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'RUN_MODE_ON', },
     { x = 33175, y = 31773, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
@@ -1304,6 +1323,9 @@ COORDS = {
     { x = 33176, y = 31775, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 33176, y = 31771, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE', },
     { x = 33176, y = 31768, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
+
+    { x = 33176, y = 31768, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'NODE',        label = 'leave-task2', },
+
     { x = 33176, y = 31767, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 33175, y = 31764, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'STAND', },
     { x = 33175, y = 31764, z = 6, wait = 'SINGLE_STEP_DELAY', type = 'TRAVEL',              npc = { "Captain Seahorse" }, city = { "thais" }, },
