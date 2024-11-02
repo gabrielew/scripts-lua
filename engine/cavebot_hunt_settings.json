@@ -19,6 +19,7 @@
   "try_run_to_pz_if_pk_attack": false,
   "wait_in_pz_after_pause_from_pk_attack": 0,
   "loot_pouch_id": 23721,
+  "sell_all_loot_in_pouch": false,
   "cap_to_leave": 500,
   "refills": [
     {
