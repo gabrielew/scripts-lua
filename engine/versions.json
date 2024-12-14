@@ -7,12 +7,12 @@
     "enchantItems": "1.0.5",
     "antiDrunk": "1.0.2",
     "nameById": "1.0.1",
-    "adventurerStone": "1.0.10",
+    "adventurerStone": "1.0.11",
     "tiles": "1.0.0"
   },
   "engine": {
     "constants": "1.1.11",
-    "actions": "1.2.19",
+    "actions": "1.2.20",
     "astar": "1.0.5"
   },
   "dlls": {
