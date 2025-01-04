@@ -149,5 +149,8 @@
     2848, 9056, 27706, 8531, 11681, 3301, 20131, 31263, 3282, 17812, 3350, 3267,
     3301
   ],
-  "auto_use_dwarven_ring_if_drunk": true
+  "auto_use_dwarven_ring_if_drunk": true,
+  "stash_options": {
+    "stash_loot_pouch": false
+  }
 }
