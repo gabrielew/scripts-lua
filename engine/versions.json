@@ -12,7 +12,7 @@
   },
   "engine": {
     "constants": "1.1.11",
-    "actions": "1.2.22",
+    "actions": "1.2.23",
     "astar": "1.0.6"
   },
   "dlls": {
