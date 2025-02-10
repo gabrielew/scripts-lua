@@ -180,5 +180,6 @@
     "utito_is_enabled": false,
     "min_health_percent": 50,
     "min_mana_percent": 50
-  }
+  },
+  "wait_time_before_forced_box": 1500
 }
