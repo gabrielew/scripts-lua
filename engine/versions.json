@@ -11,8 +11,8 @@
     "tiles": "1.0.0"
   },
   "engine": {
-    "constants": "1.1.11",
-    "actions": "1.2.26",
+    "constants": "1.1.12",
+    "actions": "1.2.27",
     "astar": "1.0.6"
   },
   "dlls": {
