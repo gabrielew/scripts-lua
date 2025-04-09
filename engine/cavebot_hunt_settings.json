@@ -181,5 +181,12 @@
     "min_health_percent": 50,
     "min_mana_percent": 50
   },
-  "wait_time_before_forced_box": 1500
+  "wait_time_before_forced_box": 1500,
+  "dynamic_smart_caitbox": {
+    "is_enabled": false,
+    "radius_area": 4,
+    "player_vision_area": 6,
+    "creature_risk_radius": 4,
+    "danger_to_run": 80
+  }
 }

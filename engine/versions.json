@@ -13,7 +13,7 @@
   "engine": {
     "constants": "1.1.16",
     "actions": "1.2.30",
-    "astar": "1.0.6"
+    "astar": "1.0.7"
   },
   "dlls": {
     "nexus_windows": "1.0.2"
