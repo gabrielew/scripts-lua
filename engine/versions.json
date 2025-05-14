@@ -11,7 +11,7 @@
     "tiles": "1.0.0"
   },
   "engine": {
-    "constants": "1.1.16",
+    "constants": "1.1.17",
     "actions": "1.2.30",
     "astar": "1.0.7"
   },
