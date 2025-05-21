@@ -198,6 +198,6 @@
     "imbuement_right_is_enabled": false,
     "imbuement_boots_is_enabled": false,
     "imbuement_action_if_lower_than": 5,
-    "imbuement_check_delay_is_minutes": 5
+    "imbuement_check_delay_in_minutes": 5
   }
 }
