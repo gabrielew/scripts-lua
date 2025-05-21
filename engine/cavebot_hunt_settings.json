@@ -188,5 +188,15 @@
     "player_vision_area": 6,
     "creature_risk_radius": 4,
     "danger_to_run": 80
+  },
+  "imbuement": {
+    "imbuement_is_enabled": false,
+    "imbuement_end_action": 1,
+    "imbuement_helmet_is_enabled": false,
+    "imbuement_armor_is_enabled": false,
+    "imbuement_left_is_enabled": false,
+    "imbuement_right_is_enabled": false,
+    "imbuement_boots_is_enabled": false,
+    "imbuement_check_delay_is_minutes": 5
   }
 }
