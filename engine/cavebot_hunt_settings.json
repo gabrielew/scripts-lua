@@ -23,6 +23,41 @@
   "cap_to_leave": 500,
   "refills": [
     {
+      "id": 3081,
+      "category": "amulets",
+      "name": "SSA",
+      "leave_hunt": 0,
+      "buy": 0
+    },
+    {
+      "name": "Gill Necklace",
+      "id": 16108,
+      "category": "amulets",
+      "leave_hunt": 0,
+      "buy": 0
+    },
+    {
+      "name": "Prism. Necklace",
+      "id": 16113,
+      "category": "amulets",
+      "leave_hunt": 0,
+      "buy": 0
+    },
+    {
+      "name": "Prismatic Ring",
+      "id": 16114,
+      "category": "rings",
+      "leave_hunt": 0,
+      "buy": 0
+    },
+    {
+      "name": "Might Ring",
+      "id": 3048,
+      "category": "rings",
+      "leave_hunt": 0,
+      "buy": 0
+    },
+    {
       "id": 236,
       "category": "potions",
       "name": "Strong Health Potion",
